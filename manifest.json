@@ -1,0 +1,22 @@
+{
+  "description": "Expland splunk logs",
+  "manifest_version": 2,
+  "name": "SplunkExpand",
+  "version": "1.0",
+
+  "icons": {
+    "48": "icons/logo.png"
+  },
+
+  "browser_action": {
+    "default_icon": {
+      "48": "icons/logo.png"
+    }
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": ["activeTab"]
+}
